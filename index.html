@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style.css" />
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<title>Document</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="">Online SHOP</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarScroll"
+					aria-controls="navbarScroll"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarScroll">
+					<ul
+						class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+						style="--bs-scroll-height: 100px"
+					>
+						<!-- <li class="nav-item">
+						<a class="nav-link active products" aria-current="page" href="#"
+							>Products</a
+						>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link products_page" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link products_page" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link products_page" href="#">Link</a>
+					</li> -->
+					</ul>
+					<form class="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button class="btn btn-outline-success" type="submit">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div class="container1">
+			<header class="main">
+				<div class="products_name">
+					<a class="products clothes_btn">Clothes</a>
+					<a class="products brands_btn">Brands</a>
+					<a class="products shoes_btn">Shoes</a>
+					<a class="products perfume_btn">Perfume</a>
+					<a class="products accessories_btn">Accessories</a>
+					<a class="products phones_btn">Phones</a>
+				</div>
+
+				<div class="background_img_products">
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/dress.png"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/watch.jpg"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/shoes.jpg"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/hand bag.jpg"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/perfume.jpg"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/ear phone.jpg"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/bluetooth.jpg"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+
+					<div class="card_products">
+						<img
+							src="./img/page1/page1 cards/phone.jpg"
+							class="small_cards"
+							alt=""
+						/>
+					</div>
+				</div>
+				<div
+					id="carouselExampleControls"
+					class="carousel slide"
+					data-bs-ride="carousel"
+				>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="./img/page1/sale.png" alt="" class="sale_img" />
+							<img
+								src="./img/page1/Lilly.webp"
+								class="d-block w-100"
+								alt="..."
+							/>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/page1/sale.png" alt="" class="sale_img" />
+							<img
+								src="./img/page1/shoes.webp"
+								class="d-block w-100"
+								alt="..."
+							/>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/page1/sale.png" alt="" class="sale_img" />
+							<img
+								src="./img/page1/shoes.jpeg"
+								class="d-block w-100"
+								alt="..."
+							/>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</header>
+
+			<div class="content">
+				<section>
+					<div class="clothes">
+						<h1 class="clothes_page">Clothes</h1>
+						<div class="cards_row">
+							<div class="products_card">
+								<img src="./img/page2/card1.jpg" alt="" class="card_img" />
+								<input type="button" value="Buy now" class="buy_btn" />
+								<h2>
+									Price: 130$
+									<span class="price_before"> 160$</span>
+									<span class="discount"> -18 %</span>
+								</h2>
+								<p class="page2_products_name">White dress</p>
+							</div>
+							<div class="products_card">
+								<img src="./img/page2/card2.jpg" alt="" class="card_img" />
+								<input type="button" value="Buy now" class="buy_btn" />
+								<h2>
+									Price: 320$
+									<span class="price_before"> 460$</span>
+									<span class="discount"> -30 %</span>
+								</h2>
+								<p class="page2_products_name">Light blue T-shirt</p>
+							</div>
+							<div class="products_card">
+								<img src="./img/page2/card3.jpg" alt="" class="card_img" />
+								<input type="button" value="Buy now" class="buy_btn" />
+								<h2>
+									Price: 199$
+									<span class="price_before"> 299$</span>
+									<span class="discount"> -33 %</span>
+								</h2>
+								<p class="page2_products_name">Striped dress</p>
+							</div>
+							<div class="products_card">
+								<img src="./img/page2/card4.jpg" alt="" class="card_img" />
+								<input type="button" value="Buy now" class="buy_btn" />
+								<h2>
+									Price: 249$
+									<span class="price_before"> 349$</span>
+									<span class="discount"> -28 %</span>
+								</h2>
+								<p class="page2_products_name">Black dress</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="brand">
+						<h1 class="brands_page">Brands</h1>
+						<div class="brands_card_row">
+							<div class="brand_products_card">
+								<div class="brands_name">
+									<strong class="strong"> Dolce & Gabbana</strong
+									><strong
+										>Dolce & Gabbana is an Italian luxury fashion brand.</strong
+									>
+								</div>
+								<img src="./img/brands/D&G.jpg" alt="" class="brand_card_img" />
+							</div>
+							<div class="brand_products_card">
+								<div class="brands_name">
+									<strong class="strong"> Gucci</strong
+									><strong>Gucci is an Italian luxury fashion brand.</strong>
+								</div>
+								<img
+									src="./img/brands/gucci.jpg"
+									alt=""
+									class="brand_card_img"
+								/>
+							</div>
+							<div class="brand_products_card">
+								<div class="brands_name">
+									<strong class="strong"> Versace</strong
+									><strong>Versace is an Italian luxury fashion brand.</strong>
+								</div>
+								<img
+									src="./img/brands/versache.jpg"
+									alt=""
+									class="brand_card_img"
+								/>
+							</div>
+							<img src="./img/brands/fashion.png" class="fashion_img" alt="" />
+						</div>
+					</div>
+				</section>
+
+				<section class="">
+					<h1 class="shoes_page Shoes">Shoes</h1>
+					<div class="cards_row">
+						<div class="products_card">
+							<img src="./img/page4 shoes/shoes.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 130$
+								<span class="price_before"> 160$</span>
+								<span class="discount"> -18 %</span>
+							</h2>
+							<p class="page2_products_name">White shoes</p>
+						</div>
+						<div class="products_card">
+							<img
+								src="./img/page4 shoes/sneaker.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 320$
+								<span class="price_before"> 460$</span>
+								<span class="discount"> -30 %</span>
+							</h2>
+							<p class="page2_products_name">White Sneakers</p>
+						</div>
+						<div class="products_card">
+							<img
+								src="./img/page4 shoes/sneaker2.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 199$
+								<span class="price_before"> 299$</span>
+								<span class="discount"> -33 %</span>
+							</h2>
+							<p class="page2_products_name">Sneakers</p>
+						</div>
+						<div class="products_card">
+							<img
+								src="./img/page4 shoes/sneakers.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 249$
+								<span class="price_before"> 349$</span>
+								<span class="discount"> -28 %</span>
+							</h2>
+							<p class="page2_products_name">Dark Bule and grey skeakers</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h1 class="perfume_page">Perfume</h1>
+					<div class="cards_row">
+						<div class="products_card">
+							<img
+								src="./img/page5 perfume/perfume 1.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 130$
+								<span class="price_before"> 160$</span>
+								<span class="discount"> -18 %</span>
+							</h2>
+							<p class="page2_products_name">JEAN PATOU</p>
+						</div>
+						<div class="products_card">
+							<img
+								src="./img/page5 perfume/perfume 2.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 320$
+								<span class="price_before"> 460$</span>
+								<span class="discount"> -30 %</span>
+							</h2>
+							<p class="page2_products_name">CHANEL</p>
+						</div>
+						<div class="products_card">
+							<img
+								src="./img//page5 perfume/perfume 3.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 199$
+								<span class="price_before"> 299$</span>
+								<span class="discount"> -33 %</span>
+							</h2>
+							<p class="page2_products_name">CHANEL</p>
+						</div>
+						<div class="products_card">
+							<img
+								src="./img/page5 perfume/perfume 4.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 249$
+								<span class="price_before"> 349$</span>
+								<span class="discount"> -28 %</span>
+							</h2>
+							<p class="page2_products_name">THAMEEN</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h1 class="accessories_page">Accessories</h1>
+					<div class="cards_row">
+						<div class="products_card">
+							<img
+								src="./img/Accessories/keyboard.jpg"
+								alt=""
+								class="card_img"
+							/>
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 130$
+								<span class="price_before"> 160$</span>
+								<span class="discount"> -18 %</span>
+							</h2>
+							<p class="page2_products_name">Keyboard</p>
+						</div>
+						<div class="products_card">
+							<img src="./img/Accessories/mouse.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 320$
+								<span class="price_before"> 460$</span>
+								<span class="discount"> -30 %</span>
+							</h2>
+							<p class="page2_products_name">Mouse</p>
+						</div>
+						<div class="products_card">
+							<img src="./img/Accessories/usb.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 199$
+								<span class="price_before"> 299$</span>
+								<span class="discount"> -33 %</span>
+							</h2>
+							<p class="page2_products_name">USB</p>
+						</div>
+						<div class="products_card">
+							<img src="./img/Accessories/mouse2.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 249$
+								<span class="price_before"> 349$</span>
+								<span class="discount"> -28 %</span>
+							</h2>
+							<p class="page2_products_name">Mouse for game</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h1 class="phones_page">Phones</h1>
+					<div class="cards_row">
+						<div class="products_card">
+							<img src="./img/phones/iphone.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 130$
+								<span class="price_before"> 160$</span>
+								<span class="discount"> -18 %</span>
+							</h2>
+							<p class="page2_products_name">Iphone</p>
+						</div>
+						<div class="products_card">
+							<img src="./img/phones/dodge.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 320$
+								<span class="price_before"> 460$</span>
+								<span class="discount"> -30 %</span>
+							</h2>
+							<p class="page2_products_name">Dodge</p>
+						</div>
+						<div class="products_card">
+							<img src="./img/phones/nokia.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 199$
+								<span class="price_before"> 299$</span>
+								<span class="discount"> -33 %</span>
+							</h2>
+							<p class="page2_products_name">Nokia</p>
+						</div>
+						<div class="products_card">
+							<img src="./img/phones/samsung.jpg" alt="" class="card_img" />
+							<input type="button" value="Buy now" class="buy_btn" />
+							<h2>
+								Price: 249$
+								<span class="price_before"> 349$</span>
+								<span class="discount"> -28 %</span>
+							</h2>
+							<p class="page2_products_name">Samsung</p>
+						</div>
+						<img src="./img/top.png" alt="" class="top_btn" />
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
